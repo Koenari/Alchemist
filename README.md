@@ -21,7 +21,7 @@ Changelog
 ------------------------
 ### 166.2
 + Updated all trait names
-+ Updated all reagants traits
++ Updated all reagant's traits
 + Added reagants
     - Butterfly Wing
     - Clam Gall
