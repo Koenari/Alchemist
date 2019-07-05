@@ -21,7 +21,7 @@ Changelog
 ------------------------
 
 ### 166.1
-*First release by Koenari
+*First release by Koenari*
 + Added following reagents : 
     - Beetle Scuttle
     - Fleshfly Larva
