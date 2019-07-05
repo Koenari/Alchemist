@@ -2,6 +2,12 @@
 local SI = Alchemist.SI
 
 local all_reagents = {
+    [SI.get(SI.BEETLE_SCUTTLE)] = {
+        SI.get(SI.BREACH),
+        SI.get(SI.PROTECTION),
+        SI.get(SI.INCREASE_ARMOR),
+        SI.get(SI.VITALITY),
+    },
     [SI.get(SI.BLESSED_THISTLE)] = {
         SI.get(SI.INCREASE_WEAPON_POWER),
         SI.get(SI.RAVAGE_HEALTH),
@@ -10,15 +16,21 @@ local all_reagents = {
     },
     [SI.get(SI.BLUE_ENTOLOMA)] = {
         SI.get(SI.INVISIBLE),
-        SI.get(SI.LOWER_SPELL_POWER),
+        SI.get(SI.COWARDICE),
         SI.get(SI.RAVAGE_MAGICKA),
         SI.get(SI.RESTORE_HEALTH),
     },
     [SI.get(SI.BUGLOSS)] = {
         SI.get(SI.INCREASE_SPELL_RESIST),
-        SI.get(SI.LOWER_SPELL_POWER),
+        SI.get(SI.COWARDICE),
         SI.get(SI.RESTORE_HEALTH),
         SI.get(SI.RESTORE_MAGICKA),
+    },
+    [SI.get(SI.BUTTERFLY_WING)] = {
+        SI.get(SI.RESTORE_HEALTH),
+        SI.get(SI.LINGERING_HEALTH),
+        SI.get(SI.UNCERTAINTY),
+        SI.get(SI.VITALITY),
     },
     [SI.get(SI.COLUMBINE)] = {
         SI.get(SI.RESTORE_HEALTH),
@@ -34,7 +46,7 @@ local all_reagents = {
     },
     [SI.get(SI.DRAGONTHORN)] = {
         SI.get(SI.INCREASE_WEAPON_POWER),
-        SI.get(SI.LOWER_ARMOR),
+        SI.get(SI.FRACTURE),
         SI.get(SI.RESTORE_STAMINA),
         SI.get(SI.WEAPON_CRIT),
     },
@@ -42,79 +54,7 @@ local all_reagents = {
         SI.get(SI.RAVAGE_HEALTH),
         SI.get(SI.RAVAGE_MAGICKA),
         SI.get(SI.RAVAGE_STAMINA),
-        SI.get(SI.STUN),
-    },
-    [SI.get(SI.IMP_STOOL)] = {
-        SI.get(SI.INCREASE_ARMOR),
-        SI.get(SI.LOWER_WEAPON_CRIT),
-        SI.get(SI.LOWER_WEAPON_POWER),
-        SI.get(SI.RAVAGE_STAMINA),
-    },
-    [SI.get(SI.LADYS_SMOCK)] = {
-        SI.get(SI.INCREASE_SPELL_POWER),
-        SI.get(SI.LOWER_SPELL_RESIST),
-        SI.get(SI.RESTORE_MAGICKA),
-        SI.get(SI.SPELL_CRIT),
-    },
-    [SI.get(SI.LUMINOUS_RUSSULA)] = {
-        SI.get(SI.LOWER_WEAPON_POWER),
-        SI.get(SI.RAVAGE_STAMINA),
-        SI.get(SI.REDUCE_SPEED),
-        SI.get(SI.RESTORE_HEALTH),
-    },
-    [SI.get(SI.MOUNTAIN_FLOWER)] = {
-        SI.get(SI.INCREASE_ARMOR),
-        SI.get(SI.LOWER_WEAPON_POWER),
-        SI.get(SI.RESTORE_HEALTH),
-        SI.get(SI.RESTORE_STAMINA),
-    },
-    [SI.get(SI.NAMIRAS_ROT)] = {
-        SI.get(SI.INVISIBLE),
-        SI.get(SI.SPEED),
-        SI.get(SI.SPELL_CRIT),
-        SI.get(SI.UNSTOPPABLE),
-    },
-    [SI.get(SI.NIRNROOT)] = {
-        SI.get(SI.INVISIBLE),
-        SI.get(SI.LOWER_SPELL_CRIT),
-        SI.get(SI.LOWER_WEAPON_CRIT),
-        SI.get(SI.RAVAGE_HEALTH),
-    },
-    [SI.get(SI.STINKHORN)] = {
-        SI.get(SI.INCREASE_WEAPON_POWER),
-        SI.get(SI.LOWER_ARMOR),
-        SI.get(SI.RAVAGE_HEALTH),
-        SI.get(SI.RAVAGE_STAMINA),
-    },
-    [SI.get(SI.VIOLET_COPRINUS)] = {
-        SI.get(SI.INCREASE_SPELL_POWER),
-        SI.get(SI.LOWER_SPELL_RESIST),
-        SI.get(SI.RAVAGE_HEALTH),
-        SI.get(SI.RAVAGE_MAGICKA),
-    },
-    [SI.get(SI.WATER_HYACINTH)] = {
-        SI.get(SI.RESTORE_HEALTH),
-        SI.get(SI.SPELL_CRIT),
-        SI.get(SI.STUN),
-        SI.get(SI.WEAPON_CRIT),
-    },
-    [SI.get(SI.WHITE_CAP)] = {
-        SI.get(SI.INCREASE_SPELL_RESIST),
-        SI.get(SI.LOWER_SPELL_CRIT),
-        SI.get(SI.LOWER_SPELL_POWER),
-        SI.get(SI.RAVAGE_MAGICKA),
-    },
-    [SI.get(SI.WORMWOOD)] = {
-        SI.get(SI.DETECTION),
-        SI.get(SI.REDUCE_SPEED),
-        SI.get(SI.UNSTOPPABLE),
-        SI.get(SI.WEAPON_CRIT),
-    },
-    [SI.get(SI.BEETLE_SCUTTLE)] = {
-        SI.get(SI.LOWER_SPELL_RESIST),
-        SI.get(SI.PROTECTION),
-        SI.get(SI.INCREASE_ARMOR),
-        SI.get(SI.VITALITY),
+        SI.get(SI.ENTRAPMENT),
     },
     [SI.get(SI.FLESHFLY_LARVA)] = {
         SI.get(SI.RAVAGE_STAMINA),
@@ -122,17 +62,53 @@ local all_reagents = {
         SI.get(SI.VULNERABILITY),
         SI.get(SI.VITALITY),
     },
+    [SI.get(SI.IMP_STOOL)] = {
+        SI.get(SI.INCREASE_ARMOR),
+        SI.get(SI.ENERVATION),
+        SI.get(SI.MAIM),
+        SI.get(SI.RAVAGE_STAMINA),
+    },
+    [SI.get(SI.LADYS_SMOCK)] = {
+        SI.get(SI.INCREASE_SPELL_POWER),
+        SI.get(SI.BREACH),
+        SI.get(SI.RESTORE_MAGICKA),
+        SI.get(SI.SPELL_CRIT),
+    },
+    [SI.get(SI.LUMINOUS_RUSSULA)] = {
+        SI.get(SI.MAIM),
+        SI.get(SI.RAVAGE_STAMINA),
+        SI.get(SI.HINDRANCE),
+        SI.get(SI.RESTORE_HEALTH),
+    },
+    [SI.get(SI.MOUNTAIN_FLOWER)] = {
+        SI.get(SI.INCREASE_ARMOR),
+        SI.get(SI.MAIM),
+        SI.get(SI.RESTORE_HEALTH),
+        SI.get(SI.RESTORE_STAMINA),
+    },
     [SI.get(SI.MUDCRAB_CHITIN)] = {
         SI.get(SI.INCREASE_SPELL_RESIST),
         SI.get(SI.PROTECTION),
         SI.get(SI.INCREASE_ARMOR),
         SI.get(SI.DEFILE),
     },
+    [SI.get(SI.NAMIRAS_ROT)] = {
+        SI.get(SI.INVISIBLE),
+        SI.get(SI.SPEED),
+        SI.get(SI.SPELL_CRIT),
+        SI.get(SI.UNSTOPPABLE),
+    },
     [SI.get(SI.NIGHTSHADE)] = {
         SI.get(SI.RAVAGE_HEALTH),
         SI.get(SI.GRADUAL_RAVAGE_HEALTH),
         SI.get(SI.PROTECTION),
         SI.get(SI.DEFILE),
+    },
+    [SI.get(SI.NIRNROOT)] = {
+        SI.get(SI.INVISIBLE),
+        SI.get(SI.UNCERTAINTY),
+        SI.get(SI.ENERVATION),
+        SI.get(SI.RAVAGE_HEALTH),
     },
     [SI.get(SI.SCRIB_JELLY)] = {
         SI.get(SI.RAVAGE_MAGICKA),
@@ -146,11 +122,53 @@ local all_reagents = {
         SI.get(SI.INVISIBLE),
         SI.get(SI.DEFILE),
     },
+    [SI.get(SI.STINKHORN)] = {
+        SI.get(SI.INCREASE_WEAPON_POWER),
+        SI.get(SI.FRACTURE),
+        SI.get(SI.RAVAGE_HEALTH),
+        SI.get(SI.RAVAGE_STAMINA),
+    },
     [SI.get(SI.TORCHBUG_THORAX)] = {
         SI.get(SI.FRACTURE),
         SI.get(SI.ENERVATION),
         SI.get(SI.DETECTION),
         SI.get(SI.VITALITY),
+    },
+    [SI.get(SI.VIOLET_COPRINUS)] = {
+        SI.get(SI.INCREASE_SPELL_POWER),
+        SI.get(SI.BREACH),
+        SI.get(SI.RAVAGE_HEALTH),
+        SI.get(SI.RAVAGE_MAGICKA),
+    },
+    [SI.get(SI.WATER_HYACINTH)] = {
+        SI.get(SI.RESTORE_HEALTH),
+        SI.get(SI.SPELL_CRIT),
+        SI.get(SI.ENTRAPMENT),
+        SI.get(SI.WEAPON_CRIT),
+    },
+    [SI.get(SI.WHITE_CAP)] = {
+        SI.get(SI.INCREASE_SPELL_RESIST),
+        SI.get(SI.COWARDICE),
+        SI.get(SI.DETECTION),
+        SI.get(SI.RAVAGE_MAGICKA),
+    },
+    [SI.get(SI.WORMWOOD)] = {
+        SI.get(SI.DETECTION),
+        SI.get(SI.HINDRANCE),
+        SI.get(SI.UNSTOPPABLE),
+        SI.get(SI.WEAPON_CRIT),
+    },
+    [SI.get(SI.CLAM_GALL)] = {
+        SI.get(SI.INCREASE_SPELL_RESIST),
+        SI.get(SI.COWARDICE),
+        SI.get(SI.DETECTION),
+        SI.get(SI.RAVAGE_MAGICKA),
+    },
+    [SI.get(SI.POWDERED_MOP)] = {
+        SI.get(SI.DETECTION),
+        SI.get(SI.HINDRANCE),
+        SI.get(SI.UNSTOPPABLE),
+        SI.get(SI.WEAPON_CRIT),
     },
 
 }

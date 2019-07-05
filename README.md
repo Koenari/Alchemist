@@ -19,6 +19,14 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 Changelog
 ------------------------
+### 166.2
++ Updated all trait names
++ Updated all reagants traits
++ Added reagants
+    - Butterfly Wing
+    - Clam Gall
+    - Powdered Mother of Pearl
++ Updated french translation
 
 ### 166.1
 *First release by Koenari*
