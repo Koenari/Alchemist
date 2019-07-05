@@ -17,7 +17,30 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 <img src="http://i.imgur.com/ue3qn6F.png" width="700px" alt="Screenshot" />
 
-Changelog
+Changelog (by Koenari)
+
+### 166.1
++ Added following reagents : 
+    - Beetle Scuttle
+    - Fleshfly Larva
+    - Mudcrab Chitin
+    - Nightshade
+    - Scrib Jelly
+    - Spider Egg
+    - Hindrance
+    - Torchbug Thorax
++ Added following traits
+    - Protection
+    - Vitality
+    - Vulnerability
+    - Gradual Ravage Health
+    - Defile
+    - Lingering Health
+    - Enervation
+    - Fracture
++ Checked compatibility with current API Version (100027)
++ Missing German and French translations
+Changelog (old)
 ---------
 
 ### 0.08

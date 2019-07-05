@@ -1,8 +1,8 @@
 ## Title: Alchemist
 
-## APIVersion: 100013
-## Author: Fix:weixm09 Mod:@awesomebilly OriginalAuthor: Helge Milde
-## Version: 165.3
+## APIVersion: 100027
+## Author: Koenari Past Authors: weixm09(fix) @awesomebilly(mod) Helge Milde(OriginalAuthor)
+## Version: 166.1
 
 
 ## OptionalDependsOn: LibStub LibAddonMenu-2.0 LibLuminary.lua

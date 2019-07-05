@@ -110,6 +110,48 @@ local all_reagents = {
         SI.get(SI.UNSTOPPABLE),
         SI.get(SI.WEAPON_CRIT),
     },
+    [SI.get(SI.BEETLE_SCUTTLE)] = {
+        SI.get(SI.LOWER_SPELL_RESIST),
+        SI.get(SI.PROTECTION),
+        SI.get(SI.INCREASE_ARMOR),
+        SI.get(SI.VITALITY),
+    },
+    [SI.get(SI.FLESHFLY_LARVA)] = {
+        SI.get(SI.RAVAGE_STAMINA),
+        SI.get(SI.GRADUAL_RAVAGE_HEALTH),
+        SI.get(SI.VULNERABILITY),
+        SI.get(SI.VITALITY),
+    },
+    [SI.get(SI.MUDCRAB_CHITIN)] = {
+        SI.get(SI.INCREASE_SPELL_RESIST),
+        SI.get(SI.PROTECTION),
+        SI.get(SI.INCREASE_ARMOR),
+        SI.get(SI.DEFILE),
+    },
+    [SI.get(SI.NIGHTSHADE)] = {
+        SI.get(SI.RAVAGE_HEALTH),
+        SI.get(SI.GRADUAL_RAVAGE_HEALTH),
+        SI.get(SI.PROTECTION),
+        SI.get(SI.DEFILE),
+    },
+    [SI.get(SI.SCRIB_JELLY)] = {
+        SI.get(SI.RAVAGE_MAGICKA),
+        SI.get(SI.VULNERABILITY),
+        SI.get(SI.SPEED),
+        SI.get(SI.LINGERING_HEALTH),
+    },
+    [SI.get(SI.SPIDER_EGG)] = {
+        SI.get(SI.HINDRANCE),
+        SI.get(SI.LINGERING_HEALTH),
+        SI.get(SI.INVISIBLE),
+        SI.get(SI.DEFILE),
+    },
+    [SI.get(SI.TORCHBUG_THORAX)] = {
+        SI.get(SI.FRACTURE),
+        SI.get(SI.ENERVATION),
+        SI.get(SI.DETECTION),
+        SI.get(SI.VITALITY),
+    },
 
 }
 -- }}}
