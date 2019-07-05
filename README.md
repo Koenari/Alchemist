@@ -17,9 +17,11 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 <img src="http://i.imgur.com/ue3qn6F.png" width="700px" alt="Screenshot" />
 
-Changelog (by Koenari)
+Changelog
+------------------------
 
 ### 166.1
+*First release by Koenari
 + Added following reagents : 
     - Beetle Scuttle
     - Fleshfly Larva
@@ -40,8 +42,6 @@ Changelog (by Koenari)
     - Fracture
 + Checked compatibility with current API Version (100027)
 + Missing German and French translations
-Changelog (old)
----------
 
 ### 0.08
 
