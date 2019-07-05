@@ -32,7 +32,6 @@ mkstr(SI.MUDCRAB_CHITIN,    "Mudcrab Chitin")
 mkstr(SI.NIGHTSHADE,        "Nightshade")
 mkstr(SI.SCRIB_JELLY,       "Scrib Jelly")
 mkstr(SI.SPIDER_EGG,        "Spider Egg")
-mkstr(SI.HINDRANCE,         "Hindrance")
 mkstr(SI.TORCHBUG_THORAX,   "Torchbug Thorax")
 
 -- traits
@@ -68,3 +67,4 @@ mkstr(SI.DEFILE,                "Defile")
 mkstr(SI.LINGERING_HEALTH,      "Lingering Health")
 mkstr(SI.ENERVATION,            "Enervation")
 mkstr(SI.FRACTURE,              "Fracture")
+mkstr(SI.HINDRANCE,             "Hindrance")

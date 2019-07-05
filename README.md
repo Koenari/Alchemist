@@ -41,7 +41,7 @@ Changelog
     - Enervation
     - Fracture
 + Checked compatibility with current API Version (100027)
-+ Missing German and French translations
++ Missing French translation
 
 ### 0.08
 
