@@ -19,6 +19,8 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 Changelog
 ------------------------
+### 166.3
+
 ### 166.2
 + Updated all trait names
 + Updated all reagant's traits
