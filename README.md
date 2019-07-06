@@ -20,20 +20,20 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 Changelog
 ------------------------
 ### 166.3
-+ Added reagants
-    - Dragon's Blood
-    - Dragon's Bile
-+ Added traits
-    - Heroism
++ Added reagents        |   + Reagenzien hinzugefügt
+    - Dragon's Blood    |       - Drachenblut
+    - Dragon's Bile     |       - Drachengalle
++ Added traits          |   + Eigenschaften hinzugefügt
+    - Heroism           |       - Heldentum
 
 ### 166.2
-+ Updated all trait names
-+ Updated all reagant's traits
-+ Added reagants
-    - Butterfly Wing
-    - Clam Gall
-    - Powdered Mother of Pearl
-+ Updated french translation
++ Updated all trait names       |   + Namen aller Eigenschaften aktualisiert
++ Updated all reagent's traits  |   + Namen aller Reagenzien aktualisiert
++ Added reagents                |   + Reagenzien hinzugefügt
+    - Butterfly Wing            |       - Schmetterlingsflügel
+    - Clam Gall                 |       - Muschelgalle
+    - Powdered Mother of Pearl  |       - Pulverisiertes Perlmutt
++ Updated french translation    |   + Französche Übersetzung aktualisiert
 
 ### 166.1
 *First release by Koenari*
