@@ -44,6 +44,18 @@ local all_reagents = {
         SI.get(SI.RAVAGE_HEALTH),
         SI.get(SI.RESTORE_MAGICKA),
     },
+    [SI.get(SI.DRAGON_BILE)] = {
+        SI.get(SI.HEROISM),
+        SI.get(SI.INVISIBLE),
+        SI.get(SI.VULNERABILITY),
+        SI.get(SI.VITALITY),
+    },
+    [SI.get(SI.DRAGON_BLOOD)] = {
+        SI.get(SI.LINGERING_HEALTH),
+        SI.get(SI.HEROISM),
+        SI.get(SI.RESTORE_STAMINA),
+        SI.get(SI.DEFILE),
+    },
     [SI.get(SI.DRAGONTHORN)] = {
         SI.get(SI.INCREASE_WEAPON_POWER),
         SI.get(SI.FRACTURE),
