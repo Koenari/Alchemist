@@ -20,6 +20,9 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 Changelog
 ------------------------
 ### 166.3
++ Added reagants
+    - Dragon's Blood
+    - Dragon's Bile
 
 ### 166.2
 + Updated all trait names
