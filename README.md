@@ -23,6 +23,8 @@ Changelog
 + Added reagants
     - Dragon's Blood
     - Dragon's Bile
++ Added traits
+    - Heroism
 
 ### 166.2
 + Updated all trait names
