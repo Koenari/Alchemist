@@ -20,7 +20,7 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 Changelog
 ------------------------
 ### 166.3
-+ Added reagants
++ Added reagents
     - Dragon's Blood
     - Dragon's Bile
 + Added traits
@@ -28,8 +28,8 @@ Changelog
 
 ### 166.2
 + Updated all trait names
-+ Updated all reagant's traits
-+ Added reagants
++ Updated all reagent's traits
++ Added reagents
     - Butterfly Wing
     - Clam Gall
     - Powdered Mother of Pearl
