@@ -1,6 +1,6 @@
 Changelog
 ------------------------
-###166.5
+### 166.5
 + corrected some reagent's traits
     - Clam Gall
     - Powdered Mother of Pearl
