@@ -122,6 +122,12 @@ local all_reagents = {
         SI.get(SI.ENERVATION),
         SI.get(SI.RAVAGE_HEALTH),
     },
+    [SI.get(SI.POWDERED_MOP)] = {
+        SI.get(SI.LINGERING_HEALTH),
+        SI.get(SI.SPEED),
+        SI.get(SI.VITALITY),
+        SI.get(SI.PROTECTION),
+    },
     [SI.get(SI.SCRIB_JELLY)] = {
         SI.get(SI.RAVAGE_MAGICKA),
         SI.get(SI.VULNERABILITY),
@@ -175,12 +181,6 @@ local all_reagents = {
         SI.get(SI.COWARDICE),
         SI.get(SI.DETECTION),
         SI.get(SI.RAVAGE_MAGICKA),
-    },
-    [SI.get(SI.POWDERED_MOP)] = {
-        SI.get(SI.DETECTION),
-        SI.get(SI.HINDRANCE),
-        SI.get(SI.UNSTOPPABLE),
-        SI.get(SI.WEAPON_CRIT),
     },
 
 }
