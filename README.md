@@ -19,10 +19,14 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 Changelog
 ------------------------
+###166.5
++ corrected some reagent's traits
+    - Clam Gall
+    - Powdered Mother of Pearl
 ### 166.4
-+ correctd German translation
++ corrected German translation
     - Kritische Zaubertreffer -> Kritische Magietreffer
-+ corrected english translation (These somehow worked before on my english client?)
++ corrected English translation (These somehow worked before on my english client?)
     - Weapon Crit -> Weapon Critical
     - Spell Crit -> Spell Critical
     
@@ -109,6 +113,6 @@ TODO / ideas
 
 - Make it possible to click on the Alchemist window to automatically craft the selected item.
 
-- There seems to be a bug that causes nothing to show up after crafting sometimes
+- There seems to be a bug that causes nothing to show up after crafting sometimes (seems to be caused by false traits, so no need to fix probably)
 
-You got another idea? Send me a message on [http://www.esoui.com/downloads/info120-Alchemist.html#comments](ESOUI)!
+You got another idea? Send me a message on [https://www.esoui.com/downloads/info2419-AlchemistContinuedbyKoenari.html#comments](ESOUI)!
