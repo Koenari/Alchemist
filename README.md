@@ -24,6 +24,7 @@ Changelog
     - Kritische Zaubertreffer -> Kritische Magietreffer
 + corrected english translation
     - Weapon Crit -> Weapon Critical (apparently I'm just dumb :D)
+    
 ### 166.3
 + Added reagents
     - Dragon's Blood
