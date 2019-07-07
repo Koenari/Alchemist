@@ -108,4 +108,6 @@ TODO / ideas
 
 - Make it possible to click on the Alchemist window to automatically craft the selected item.
 
+- There seems to be a bug that causes nothing to show up after crafting sometimes
+
 You got another idea? Send me a message on [http://www.esoui.com/downloads/info120-Alchemist.html#comments](ESOUI)!
