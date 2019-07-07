@@ -32,6 +32,12 @@ local all_reagents = {
         SI.get(SI.UNCERTAINTY),
         SI.get(SI.VITALITY),
     },
+    [SI.get(SI.CLAM_GALL)] = {
+        SI.get(SI.DEFILE),
+        SI.get(SI.HINDRANCE),
+        SI.get(SI.VULNERABILITY),
+        SI.get(SI.INCREASE_SPELL_RESIST),
+    },
     [SI.get(SI.COLUMBINE)] = {
         SI.get(SI.RESTORE_HEALTH),
         SI.get(SI.RESTORE_MAGICKA),
@@ -175,12 +181,6 @@ local all_reagents = {
         SI.get(SI.HINDRANCE),
         SI.get(SI.UNSTOPPABLE),
         SI.get(SI.WEAPON_CRIT),
-    },
-    [SI.get(SI.CLAM_GALL)] = {
-        SI.get(SI.INCREASE_SPELL_RESIST),
-        SI.get(SI.COWARDICE),
-        SI.get(SI.DETECTION),
-        SI.get(SI.RAVAGE_MAGICKA),
     },
 
 }
