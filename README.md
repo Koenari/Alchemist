@@ -19,6 +19,9 @@ The addon will activate as soon as you interact (click on) an Alchemy Station. W
 
 Changelog
 ------------------------
+### 166.4
++ correctd German translation
+    - Kritische Zaubertreffer -> Kritische Magietreffer
 ### 166.3
 + Added reagents
     - Dragon's Blood
