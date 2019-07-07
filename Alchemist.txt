@@ -2,7 +2,7 @@
 
 ## APIVersion: 100027
 ## Author: Koenari (Past Authors: weixm09(fix) @awesomebilly(mod) Helge Milde(OriginalAuthor))
-## Version: 166.3
+## Version: 166.4
 
 
 ## OptionalDependsOn: LibStub LibAddonMenu-2.0 LibLuminary.lua
