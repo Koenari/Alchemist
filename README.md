@@ -22,8 +22,9 @@ Changelog
 ### 166.4
 + correctd German translation
     - Kritische Zaubertreffer -> Kritische Magietreffer
-+ corrected english translation
-    - Weapon Crit -> Weapon Critical (apparently I'm just dumb :D)
++ corrected english translation (These somehow worked before on my english client?)
+    - Weapon Crit -> Weapon Critical
+    - Spell Crit -> Spell Critical
     
 ### 166.3
 + Added reagents
