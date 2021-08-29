@@ -4,7 +4,7 @@ if (not LL) then return end
 
 -- Addon Object
 Alchemist = {
-    version = '166.5',
+    version = '7.1.5-1.0',
     listview = {},
 	Algorithm = {}
 }

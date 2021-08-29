@@ -182,7 +182,25 @@ local all_reagents = {
         SI.get(SI.UNSTOPPABLE),
         SI.get(SI.WEAPON_CRIT),
     },
-
+    [SI.get(SI.CRIMSON_NIRNROOT)] = {
+        SI.get(SI.TIMIDITY),
+        SI.get(SI.SPELL_CRIT),
+        SI.get(SI.GRADUAL_RAVAGE_HEALTH),
+        SI.get(SI.RESTORE_HEALTH),
+    },
+    
+    [SI.get(SI.VILE_COAGULANT)] = {
+        SI.get(SI.TIMIDITY),
+        SI.get(SI.RAVAGE_HEALTH),
+        SI.get(SI.RESTORE_MAGICKA),
+        SI.get(SI.PROTECTION),
+    },
+    [SI.get(SI.CHAURUS_EGG)] = {
+        SI.get(SI.TIMIDITY),
+        SI.get(SI.RAVAGE_MAGICKA),
+        SI.get(SI.RESTORE_STAMINA),
+        SI.get(SI.DETECTION),
+    },
 }
 -- }}}
 

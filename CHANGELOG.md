@@ -1,5 +1,14 @@
 Changelog
 ------------------------
+### 7.1.5-1.0
++ added new reagents
+    - Crimson nirnroot
+    - Vile coagulant
+    - Chaurus egg
++ added new trait
+    - Timidity
++ Updated french translation for "Critique"
+
 ### 166.5
 + corrected some reagent's traits
     - Clam Gall
